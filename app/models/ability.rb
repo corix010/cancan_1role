@@ -1,3 +1,4 @@
+
 class Ability
   include CanCan::Ability
 
@@ -20,7 +21,7 @@ class Ability
     # these will grant permission on each item in the array.
     #
     # See the wiki for details: https://github.com/ryanb/cancan/wiki/Defining-Abilities
-    # user ||= User.new
+     user ||= User.new
     # can :access, :home
     #
     # if user.is?('admin')

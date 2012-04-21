@@ -8,7 +8,7 @@
 </head>
 <body>
 
-Logged in as: <%= current_user.name %><br />
+Logged in as: <%= session[:user] ? session[:user].name : '' %><br />
 <%= yield %>
 
 </body>
