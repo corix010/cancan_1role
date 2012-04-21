@@ -1,0 +1,12 @@
+<h1>CanCan Test</h1>
+<div>
+  <%= form_tag(:controller => 'home', :action => 'index') do %>
+    <div class="field">
+      Username:<br />
+      <input type="text" name="username" />
+    </div>
+    <div class="actions">
+      <%= submit_tag("Log In") %>
+    </div>
+  <% end %>
+</div>
